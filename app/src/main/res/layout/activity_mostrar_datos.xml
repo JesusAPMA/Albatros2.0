@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mostrar_datos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="40dp"
+    tools:context="com.example.lenovo.albatros.Mostrar_datos">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre: "
+            android:textSize="18dp"
+            android:textColor="@color/text_color"/>
+        <TextView
+            android:id="@+id/txt_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Jesus Alejandro Perez Marquez"
+            android:textColor="@color/text_color"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha: "
+            android:textColor="@color/text_color"
+            android:textSize="18dp"/>
+        <TextView
+            android:id="@+id/txt_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016/04/04"
+            android:textSize="18dp"
+            android:textColor="@color/text_color"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Origen: "
+            android:textSize="18dp"
+            android:textColor="@color/text_color"/>
+        <TextView
+            android:id="@+id/txt_origen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hermosillo"
+            android:textSize="18dp"
+            android:textColor="@color/text_color"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destino: "
+            android:textSize="18dp"
+            android:textColor="@color/text_color"/>
+        <TextView
+            android:id="@+id/txt_destino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puerto Peñasco"
+            android:textSize="18dp"
+            android:textColor="@color/text_color"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asiento: "
+            android:textSize="18dp"
+            android:textColor="@color/text_color"/>
+    <TextView
+        android:id="@+id/txt_asiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="18dp"
+        android:textColor="@color/text_color"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verifique sus Datos Antes de terminar"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terminar"
+        android:onClick="onClick"/>
+
+</LinearLayout>
